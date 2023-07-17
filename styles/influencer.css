@@ -46,12 +46,14 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 100px;
 
 }
 
 .banner-texts {
     display: flex;
     flex-direction: column;
+    width: 60%;
 
 }
 
@@ -88,14 +90,17 @@ header {
 }
 
 .banner-image {
-    padding: 50px 0px;
+    width: 30%;
+    padding: 20px;
+
 }
 
 .banner-camera {
-    margin: 10px;
-    padding-right: 80px;
+    height: 100%;
+    width: 100%;
     background-image: url("/images/Circle\ design.svg");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -304,22 +309,19 @@ footer {
     }
 
     .banner-image {
-        margin: 0;
-        padding: 0;
-        margin-top: 30px;
-    }
-
-    .banner-camera {
         width: 80%;
-        margin: auto;
-        padding: 30px;
+        padding: 20px;
 
     }
+
+
+
 
     .banner-texts {
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 90%;
     }
 
     .banner-title {
